@@ -15,9 +15,10 @@
   }
   .nav-links {
     list-style: none;
-    display: flex;
+    display:flex;
     line-height: 20px;
     padding-top: 20px;
+    padding-left: 900px;
     gap: 20px;
   }
   
@@ -25,11 +26,19 @@
     text-decoration: none;
     color: white;
     padding-right: 40px;
-    font-weight:800;
-    transition: color 0.3s;
+    transition: color 0.3s,border-radius 0.2s;
   }
   
   .nav-links a:hover {
     color: #00bcd4;
+    border-radius: 10px;
+    background-color: whitesmoke;
   }
+
+  .brand
+  {
+    display:none
+  }
+
+
   

@@ -28,8 +28,8 @@ const projectData = [
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="projHeading">
-        <h2>Projects</h2>
+      <div className="projcontainer">
+      <h2 className="text-center projheading">Projects</h2>
       </div>
       <div className="projects-container">
         {projectData.map((project, key) => {

@@ -15,6 +15,10 @@
     display: flex;
     justify-content: space-between;
   }
+  .aboutname h2{
+    font-size: xx-large;
+    font-weight: bolder;
+  }
 
   .aboutpara
   {

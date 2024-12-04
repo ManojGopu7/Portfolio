@@ -2,15 +2,17 @@
    background-color: #e9edc9;
    height: 800px;
 }
-.projHeading
+.projcontainer
 {
    align-items: center;
    text-align: center;
    padding-top: 90px;
    padding-bottom: 50px;
-   font-size: xx-large;
-   font-weight:bolder;
-   
+}
+.projheading
+{
+  font-size: xx-large;
+    font-weight: bolder;
 }
 .project-card{
   width: 401px;
@@ -67,11 +69,16 @@
  }
  .live:hover{
    background-color: green;
-   color:whitesmoke
+   color:whitesmoke;
+   padding: 5px 0 5px 0;
  }
 
  .src:hover{
    background-color: green;
-   color:whitesmoke
+   color:whitesmoke;
+   padding: 5px 0 5px 0;
+ }
+ .buttons:hover{
+  
  }
   

@@ -16,6 +16,11 @@ footer
     font-weight: 900;
     font-size: xx-large;
     padding:10px 20px;
+    
+}
+.footer-name a{
+    text-decoration: none;
+    color: #000;
 }
 .socials
 {

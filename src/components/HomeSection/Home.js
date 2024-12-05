@@ -32,6 +32,7 @@ const Home = () => {
         </p>
         <p>Transforming ideas into impactful web solutions.</p>
       </div>
+      
       <div className="resume-section">
         <button className="resume-btn" onClick={handleResumeClick}>
           Resume
@@ -62,6 +63,9 @@ const Home = () => {
           </div>
         </div>
       )}
+      <div className="more">
+        <a href="#about" className="moreaboutme"><p>See More About Me<i class="bi bi-caret-down-fill mt-5 ps-2 text-dark down"></i></p></a>
+      </div>
     </div>
   );
 };

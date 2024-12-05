@@ -5,8 +5,57 @@
     padding: 20px;
     background-color: #ccd5ae;
     height:80px;
+    width: 100%;
     color: #fff;
   }
+  .linksContainer
+  {
+    width: 60%;
+    position:absolute;
+    right: 0px;
+    padding:10px;
+    display: inline;
+    padding-top: 30px;
+  }
+  .menuButton a
+{
+  text-decoration: none;
+  list-style: none;
+  color:#000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.menuLinks
+{
+  width:370px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  transform: translateX(350px);
+  transition: 0.5s linear;
+  background-color: #ccd5ae;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.menuLinksOpened
+{
+  width:370px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  transform: translateX(-300px);
+  transition: 0.5s linear;
+  background-color: #ccd5ae;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  list-style:none;
+}
   .brand
   {
     font-size: xx-large;
@@ -16,22 +65,20 @@
   .nav-links {
     list-style: none;
     display:flex;
-    line-height: 20px;
-    padding-top: 20px;
-    padding-left: 900px;
+    justify-content: space-evenly;
     gap: 20px;
   }
   
   .nav-links a {
     text-decoration: none;
     color: white;
-    padding-right: 40px;
-    transition: color 0.3s,border-radius 0.2s;
+    transition: 0.3s;
   }
   
   .nav-links a:hover {
-    color: #00bcd4;
+    color: #000;
     border-radius: 10px;
+    padding: 6px 10px;
     background-color: whitesmoke;
   }
 
@@ -39,6 +86,28 @@
   {
     display:none
   }
+
+  .menuButton
+  {
+    display: none;
+    font-size: 30px;
+    position: absolute;
+    right: 40px;
+  }
+
+  @media (min-width:200px) and (max-width:590px){
+    .menuButton
+    {
+      display: inline;
+    }
+    .linksContainer
+    {
+      display: none;
+    }
+  }
+
+  
+
 
 
   

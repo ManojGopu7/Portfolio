@@ -14,7 +14,7 @@ const Home = () => {
   };
 
   return (
-    <div id="home" className="home p-5">
+    <div id="home" className="home">
       <div className="heading">
         <h1>I'M Manoj Gopu</h1>
       </div>

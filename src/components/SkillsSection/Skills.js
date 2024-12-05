@@ -31,7 +31,7 @@ const Skills = () => {
             <p className="text-center">{skill.name}</p>
           </div>
         ))}
-      </div>
+      </div>  
     </section>
   );
 };

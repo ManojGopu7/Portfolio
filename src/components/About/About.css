@@ -31,3 +31,27 @@
     
   }
   
+  @media (min-width:200px) and (max-width:590px){
+    #about
+    {
+      flex-direction: column;
+      height: fit-content;
+    }
+
+    .aboutname
+    {
+      margin-top: 90px;
+      padding-left: 25%;
+      width: fit-content;
+    }
+
+    .aboutpara
+    {
+      margin-top:-130px;
+      width: 90%;
+      margin-left: 5%;
+      height: fit-content;
+      padding-bottom: 10px;
+      font-size: 15px;
+    }
+  }

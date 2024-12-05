@@ -6,13 +6,17 @@ import linkedin from "../../images/linkedin.png"
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="footer-name"><a href="#home">Manoj Gopu</a></div>
+    <footer className="footerSection">
+      <div className="firstFooter">
+        <div className="footer-name"><a href="#home">Manoj Gopu</a></div>
+        <div className="socials">
+          <a href="https://github.com/ManojGopu7" target="_blank"><img src={github} alt="githubicon" /></a>
+          <a href="https://linkedin.com/in/manojgopu" target="_blank"><img src={linkedin} alt="githubicon" /></a>
+          <a href="https://wa.me/7330825034" target="_blank"><img src={whatsapp} alt="githubicon" /></a>
+        </div>
+      </div>
+      <div className="secondFooter">
       <div className="small"><small>Created By Manoj Gopu</small></div>
-      <div className="socials">
-        <a href="https://github.com/ManojGopu7" target="_blank"><img src={github} alt="githubicon"/></a>
-        <a href="https://linkedin.com/in/manojgopu" target="_blank"><img src={linkedin} alt="githubicon"/></a>
-        <a href="https://wa.me/7330825034" target="_blank"><img src={whatsapp} alt="githubicon"/></a>
       </div>
     </footer>
   );

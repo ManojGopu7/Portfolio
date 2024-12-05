@@ -2,14 +2,14 @@
 {
     box-sizing: border-box;
 }
-footer
+.footerSection
 {
     width:100%;
    background-color: #ccd5ae;
     color: #000; 
     text-shadow: 3px 3px 1px #ababab;
     display: flex;
-    height:65px;
+    height:70px;
     justify-content: space-between;
 }
 .footer-name{
@@ -25,6 +25,8 @@ footer
 .socials
 {
     margin-top: 13px;
+    position:absolute;
+    right:0px;
 }
 .socials a
 {
@@ -39,10 +41,48 @@ footer
     height: 40px;
     border-radius:15%
 }
+.firstFooter
+{
+    display: flex;
+    height: 60px;
+}
+.secondFooter
+{
+    height: 6px;
+    margin-top: 7px;
+    position: absolute;
+    padding-left: 47%;
+}
 
 .small
 {
     text-align: center;
     margin-top: 35px;
     font-size: large;
+}
+
+@media (min-width:200px) and (max-width:590px){
+    .footer-name
+    {
+        font-size: 20px;
+        padding:15px 7px ;
+    }
+
+    .secondFooter
+    {
+        padding-left: 27%;
+        
+    }
+
+    .small
+    {
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+    .socials a img
+    {
+        width: 30px;
+        height: 30px;
+    }
 }

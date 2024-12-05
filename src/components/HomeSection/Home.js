@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
+import resumess from "../../images/resumess.png";
 
 const Home = () => {
+  const [showResume, setShowResume] = useState(false);
+
+  const handleResumeClick = () => {
+    setShowResume(true);
+  };
+
+  const handleCloseClick = () => {
+    setShowResume(false);
+  };
+
   return (
     <div id="home" className="home p-5">
       <div className="heading">
@@ -12,18 +23,45 @@ const Home = () => {
           Java Full Stack Developer, ReactJS Enthusiast, and Tech Innovator.
         </p>
         <p>
-        Building smooth and user-friendly digital solutions with Spring Boot, ReactJS, and MySQL.
+          Building smooth and user-friendly digital solutions with Spring Boot,
+          ReactJS, and MySQL.
         </p>
         <p>
-        Skilled at combining clean code with intuitive designs to create modern and impactful web applications.
+          Skilled at combining clean code with intuitive designs to create
+          modern and impactful web applications.
         </p>
-        <p>
-        Transforming ideas into impactful web solutions.
-        </p>
+        <p>Transforming ideas into impactful web solutions.</p>
       </div>
-      <div className="more">
-        <p>See More About Me<i className="bi bi-caret-down-fill ps-1 mt-3 icon"></i></p>
+      <div className="resume-section">
+        <button className="resume-btn" onClick={handleResumeClick}>
+          Resume
+        </button>
       </div>
+
+      {showResume && (
+        <div className="resume-popup">
+          <div className="resume-content">
+            <img
+              src={resumess}
+              alt="Resume Screenshot"
+              className="resume-img"
+            />
+            <div className="resume-buttons">
+              <a
+                href="/Manoj Gopu.pdf"
+                download="Manoj Gopu_Resume.pdf"
+                className="btn download-btn"
+              >
+                Download Resume
+              </a>
+
+              <button className="close-btn" onClick={handleCloseClick}>
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

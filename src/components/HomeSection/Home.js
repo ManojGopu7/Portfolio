@@ -42,8 +42,8 @@ const Home = () => {
             />
             <div className="resume-buttons">
               <a
-                href="/Manoj Gopu.pdf"
-                download="Manoj Gopu_Resume.pdf"
+                href="/Gopu Manoj.pdf"
+                download="Manoj Gopu - Resume.pdf"
                 className="btn download-btn"
               >
                 Download Resume

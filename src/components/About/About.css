@@ -23,7 +23,8 @@
   .aboutpara
   {
     margin-top: 130px;
-    height:250px;
+    margin-right:30px;
+    height:fit-content;
     border: 1px solid #fff;
     border-radius: 10px;
     padding: 20px;

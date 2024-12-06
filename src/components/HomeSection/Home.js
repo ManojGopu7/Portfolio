@@ -16,19 +16,12 @@ const Home = () => {
   return (
     <div id="home" className="home">
       <div className="heading">
-        <h1>I'M Manoj Gopu</h1>
+        <h1>I'M 
+          Manoj Gopu</h1>
       </div>
       <div className="intro">
         <p>
-          Java Full Stack Developer, ReactJS Enthusiast, and Tech Innovator.
-        </p>
-        <p>
-          Building smooth and user-friendly digital solutions with Spring Boot,
-          ReactJS, and MySQL.
-        </p>
-        <p>
-          Skilled at combining clean code with intuitive designs to create
-          modern and impactful web applications.
+        A Passionate Full Stack Developer, proficient in building and optimizing dynamic web applications.
         </p>
         <p>Transforming ideas into impactful web solutions.</p>
       </div>

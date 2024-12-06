@@ -2,14 +2,31 @@
    background-color: #e9edc9;
    height: fit-content;
 }
-.projcontainer
-{
-   align-items: center;
-   text-align: center;
-   padding-top: 90px;
-   padding-bottom: 50px;
 
+.projheading-container {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
+
+.projheading {
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-right: 20px; /* Spacing between text and line */
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.projheading-container h2{
+  font-size: 35px;
+}
+.projheading-line {
+  flex-grow: 0.98; /* Makes the line fill the remaining space */
+  height: 3px; /* Thickness of the line */
+  background-color: black; /* Color of the line */
+}
+
 .projects-container
 {
   display: flex;

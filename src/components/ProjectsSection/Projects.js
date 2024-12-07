@@ -48,12 +48,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="buttons">
-                <a
-                  href={project.demo} target="_blank"
-                  className="btn live"
-                >
-                  Live
-                </a>
+                <a href={project.demo} target="_blank"className="btn live"> Live </a>
                 <a href={project.link} target="_blank" className="btn src">Source Code</a>
               </div>
             </div>

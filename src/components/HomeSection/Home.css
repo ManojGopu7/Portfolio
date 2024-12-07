@@ -137,6 +137,9 @@
       position: relative;
       padding-left: 15%;
     }
+    .heading h1{
+      font-size: 40px;
+    }
 
     .intro
     {

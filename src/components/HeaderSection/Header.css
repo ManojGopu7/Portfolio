@@ -20,10 +20,16 @@
   .menuButton a
 {
   text-decoration: none;
-  list-style: none;
   color:#000;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:"Trirong";
   font-size: 20px;
+}
+
+.menuButton a:hover{
+  color:white;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 5px;
 }
 .menuLinks
 {
@@ -38,7 +44,7 @@
   padding: 10px;
   justify-content: center;
   align-items: center;
-  list-style: none;
+  text-decoration: none;
 }
 
 .menuLinksOpened
@@ -54,7 +60,7 @@
   padding: 10px;
   justify-content: center;
   align-items: center;
-  list-style:none;
+  text-decoration: none;
 }
   .brand
   {
@@ -71,15 +77,17 @@
   
   .nav-links a {
     text-decoration: none;
-    color: white;
+    color: #333;
     transition: 0.3s;
+    font-weight:600 ;
   }
   
   .nav-links a:hover {
-    color: #000;
+    color: #fff;
     border-radius: 10px;
     padding: 6px 10px;
-    background-color: whitesmoke;
+    background-color: #333;
+    font-weight: 800;
   }
 
   .brand

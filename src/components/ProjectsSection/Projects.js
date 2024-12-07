@@ -21,7 +21,8 @@ const projectData = [
     title: "Employee Management System",
     img: ems,
     description:
-      "Here is the simple Weather app. Created using html,css,javascript and open weather Api .",
+      "An Employee Management System built with Spring Boot, ReactJS, and MySQL to manage employee data efficiently.",
+    link: "https://github.com/ManojGopu7/Employee-Management-System",
   },
 ];
 
@@ -47,8 +48,13 @@ const Projects = () => {
                 </div>
               </div>
               <div className="buttons">
-                <button className="live">Live</button>
-                <button className="src">Source Code</button>
+                <a
+                  href={project.demo} target="_blank"
+                  className="btn live"
+                >
+                  Live
+                </a>
+                <a href={project.link} target="_blank" className="btn src">Source Code</a>
               </div>
             </div>
           );

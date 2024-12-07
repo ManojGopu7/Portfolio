@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="secondFooter">
-      <div className="small"><small>Created By Manoj Gopu</small></div>
+      <div className="small"><small>Created by Manoj</small></div>
       </div>
     </footer>
   );

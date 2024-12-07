@@ -76,25 +76,29 @@
  {
    width:80px;
    border-radius: 10px;
-   border:1px solid green;
-   transition: 0.3s
+   border:1px solid whitesmoke;
+   background-color: #f39c12;
+   color: #ffff;
+   transition: 0.3s;
  }
 
  .src
  {
    width:130px;
    border-radius: 10px;
-   border:1px solid green;
+   border:1px solid white;
+   background-color: grey;
+   color: whitesmoke;
    transition: 0.3s;
  }
  .live:hover{
-   background-color: green;
-   color:whitesmoke;
+   background-color: white;
+   color: #000;;
  }
 
  .src:hover{
-   background-color: green;
-   color:whitesmoke;
+   background-color: #f39c12;
+   color:#fff;
  }
 
  @media (min-width:200px) and (max-width:590px)

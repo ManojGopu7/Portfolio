@@ -94,13 +94,13 @@ const ContactForm = () => {
             sx={{
               mb: 2,
               '& .MuiOutlinedInput-root': {
-                borderRadius: '12px',
+                borderRadius: '9px',
                 backgroundColor: '#f7f7f7',
                 '& fieldset': {
                   borderColor: '#ddd',
                 },
                 '&:hover fieldset': {
-                  borderColor: '#3f51b5',
+                  borderColor: '#333',
                 },
               },
             }}
@@ -116,13 +116,13 @@ const ContactForm = () => {
             sx={{
               mb: 2,
               '& .MuiOutlinedInput-root': {
-                borderRadius: '12px',
+                borderRadius: '9px',
                 backgroundColor: '#f7f7f7',
                 '& fieldset': {
                   borderColor: '#ddd',
                 },
                 '&:hover fieldset': {
-                  borderColor: '#3f51b5',
+                  borderColor: '#333',
                 },
               },
             }}
@@ -146,7 +146,7 @@ const ContactForm = () => {
                   borderColor: '#ddd',
                 },
                 '&:hover fieldset': {
-                  borderColor: '#3f51b5',
+                  borderColor: '#333',
                 },
               },
             }}

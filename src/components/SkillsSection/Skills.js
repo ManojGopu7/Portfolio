@@ -23,7 +23,7 @@ const skillsData = [
 const Skills = () => {
   return (
     <section id="skills">
-      <h2 className="text-center skillheading">My Skills</h2>
+      <h2 className="text-center skillHeading">My Skills</h2>
       <div className="skills-container">
         {skillsData.map((skill,index) => (
           <div className="skill-card" key={index}>

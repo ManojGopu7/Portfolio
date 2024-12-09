@@ -56,3 +56,24 @@
       font-size: 15px;
     }
   }
+
+  
+  @media (min-width:600px) and (max-width:900px)
+  {
+    .aboutname
+    {
+      padding-left: 50px;
+      margin-right: 20px;
+    
+    }
+    
+  }
+
+  @media (min-width:950px) and (max-width:1300px)
+  {
+    .aboutname
+    {
+      padding-left: 40px;
+      margin-left: 10px;
+    }
+  }

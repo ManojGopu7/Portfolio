@@ -111,5 +111,52 @@
 
  }
  
+ @media (min-width:600px) and (max-width:900px)
+ {
+    .projTitle
+    {
+      padding:5px 5px 0px 5px;
+    }
+    .projTitle h4
+    {
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .project-card
+    {
+      height: fit-content;
+      width: 32.3%;
+    }
+
+    .projDes
+    {
+      padding-left: 8px;
+    }
+
+    .projDes p
+    {
+      font-size: 13px;
+    }
+ }
+
+ @media (min-width:900px) and (max-width:1300px)
+ {
+    .projTitle
+    {
+      padding: 5px 0px 0px 9px;
+    }
+    .projTitle h4
+    {
+      font-size: 17px;
+      font-weight: 700;
+    }
+    .projDes
+    {
+      padding-right: 3px;
+      padding-left: 7px;
+    }
+
+ }
  
   

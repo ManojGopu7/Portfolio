@@ -165,10 +165,39 @@
     }
 
     .resume-img{
-      width: 85%;
-      height: fit-content;
+      width: 95%;
+      height:86%;
 
     }
     
+  }
+  @media (min-width:600px) and (max-width:900px)
+  {
+    .resume-content
+    {
+      width: 90%;
+      height: 80%;
+      padding-top: 17px;
+    }
+
+    .resume-img{
+      width: 95%;
+      height:86%;
+    }
+
+  }
+  @media (min-width:900px) and (max-width:1300px)
+  {
+    .resume-content
+    {
+      width: 90%;
+      height: 80%;
+      padding-top: 17px;
+    }
+
+    .resume-img{
+      width: 95%;
+      height:86%;
+    }
   }
   

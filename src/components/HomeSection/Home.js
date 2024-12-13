@@ -25,6 +25,11 @@ const Home = () => {
         </p>
         <p>Transforming ideas into impactful web solutions.</p>
       </div>
+      <div className="iconSection">
+        <a href="https://github.com/ManojGopu7" target="_blank"><i className="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/manojgopu/" target="_blank"><i className="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/7330825034" target="_blank"><i className="bi bi-whatsapp"></i></a>
+      </div>
       
       <div className="resume-section">
         <button className="resume-btn" onClick={handleResumeClick}>

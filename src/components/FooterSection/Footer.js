@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="firstFooter">
         <div className="footer-name"><a href="#home">Manoj Gopu</a></div>
         <div className="socials">
-          <a href="https://github.com/ManojGopu7" target="_blank"><img src={github} alt="githubicon" /></a>
-          <a href="https://linkedin.com/in/manojgopu" target="_blank"><img src={linkedin} alt="githubicon" /></a>
-          <a href="https://wa.me/7330825034" target="_blank"><img src={whatsapp} alt="githubicon" /></a>
+          <a href="https://github.com/ManojGopu7" target="_blank"><i className="bi bi-github"></i></a>
+          <a href="https://linkedin.com/in/manojgopu" target="_blank"><i className="bi bi-linkedin"></i></a>
+          <a href="https://wa.me/7330825034" target="_blank"><i className="bi bi-whatsapp"></i></a>
         </div>
       </div>
       <div className="secondFooter">

@@ -45,7 +45,32 @@
     text-decoration: none;
     color:black;
 }
+.iconSection
+{
+  width:60px;
+  height:200px;
+  display: flex;
+  position: absolute;
+  top:150px;
+  border-radius: 10px;
+  background-color: #ccd5ae;
+  box-shadow: 0px 8px 16px rgba(92, 82, 82, 0.2);
+  flex-direction: column;
 
+}
+
+.iconSection a{
+  display: flex;
+ width:fit-content;
+ font-size: 31px;
+ padding: 10px;
+ color: black;
+ transition: color 0.5s;
+}
+.iconSection a:hover{
+  color:rgb(73, 99, 160);
+
+}
 .resume-btn {
     padding: 10px 20px;
     font-size: 16px;

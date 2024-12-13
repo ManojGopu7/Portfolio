@@ -72,7 +72,7 @@ const ContactForm = () => {
           },
         }}
       >
-        <Typography variant="h5" align="center" gutterBottom sx={{ fontWeight: 'bold', color: '#333' }}>
+        <Typography variant="h5" align="center" gutterBottom sx={{ fontSize:'xx-large',fontWeight: 'bold', color: '#333' }}>
         Contact Me
         </Typography>
         <Typography variant="body1" align="center" sx={{ mb: 3 }}>

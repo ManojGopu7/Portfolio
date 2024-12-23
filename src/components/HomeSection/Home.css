@@ -194,6 +194,19 @@
       height:86%;
 
     }
+
+    .iconSection
+    {
+      width:40px;
+      height:160px;
+    }
+
+    .iconSection a
+    {
+      width:fit-content;
+      font-size: 25px;
+      padding: 7px;
+    }
     
   }
   @media (min-width:600px) and (max-width:900px)

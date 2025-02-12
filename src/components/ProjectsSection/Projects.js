@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import weatherImg from "../../images/weather.png";
-import ecommerceImg from "../../images/e-commerce.png";
+import movieInfoImg from "../../images/movieInfoImg.png";
 import ems from "../../images/employee.png";
 
 const projectData = [
@@ -12,10 +12,12 @@ const projectData = [
       "Here is the simple Weather app. Created using html,css,javascript and open weather Api .",
   },
   {
-    title: "E-Commerce App",
-    img: ecommerceImg,
+    title: "Movie Info App",
+    img: movieInfoImg,
     description:
-      "Here is the simple Weather app. Created using html,css,javascript and open weather Api .",
+      "A movie information app built entirely with ReactJS to fetch and display movie details.",
+      demo:"https://movies-info-bymg.netlify.app/",
+      link: "https://github.com/ManojGopu7/Movies-Info"
   },
   {
     title: "Employee Management System",
